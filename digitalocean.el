@@ -442,7 +442,7 @@ Given MSG and RES response match the root key MAIN show KEY values."
           (digitalocean-fetch-droplets) 'droplets 'name 'id)))
    "power_on"))
 
-;;;###autoload (autoload 'digitalocean-droplet-destroy)
+;;;###autoload
 (defun digitalocean-droplet-destroy ()
   "Destroy the selected droplet."
   (interactive)
